@@ -1,25 +1,25 @@
 
 
 
-import tkinter as tk
+import sys
+import time
 from time import sleep
 Print("Hello welcome to SaveMeMath. Input you lesson code and get a generated google document")
 print(" ")
 assing = input("What Is The Assignment code? (grade, *ac for acc*, unit, : ,lesson).           # ")
 
-def task():
-    # The window will stay open until this function call ends.
-    sleep(6) # Replace this with the code you want to run
-    root.destroy()
+#animation = "|/-\\"
 
-root = tk.Tk()
-root.title("loading")
+#animation = ["10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"]
 
-label = tk.Label(root, text="Sanning files for your request")
-label.pack()
+animation = ["[■□□□□□□□□□]","[■■□□□□□□□□]", "[■■■□□□□□□□]", "[■■■■□□□□□□]", "[■■■■■□□□□□]", "[■■■■■■□□□□]", "[■■■■■■■□□□]", "[■■■■■■■■□□]", "[■■■■■■■■■□]", "[■■■■■■■■■■]"]
 
-root.after(200, task)
-root.mainloop()
+for i in range(20):
+    time.sleep(0.1)
+    sys.stdout.write("\rwaiting.... " + animation[i % len(animation)])
+    sys.stdout.flush()
+    
+print("\nDone!")
 
 print("compiling data....")
 sleep(1)
