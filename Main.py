@@ -25,7 +25,7 @@ label.pack()
 root.after(200, task)
 root.mainloop()
 
-print("compiling data...")
+print("compiling data....")
 sleep(1)
 print("1/3")
 sleep(3)
