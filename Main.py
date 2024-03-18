@@ -32,5 +32,5 @@ print(" file/jason.compile/google.com.doc/id:", assing, " .savememath/html.file/
 sleep(1)
 print(" send.file")
 
-if assing == 7ac5:1:
+if assing == "7ac5:1":
   print(" here is your link to the document. :  https://docs.google.com/document/d/108xSJxqkqfkwGnR1Wh_v28T0y_0C6zYbLsqwR01Uva0/view")
